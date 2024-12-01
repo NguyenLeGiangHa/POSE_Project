@@ -10,29 +10,17 @@ Repository: Tracking_Vehicles_System_Mobile
 
 Instructions:
 
-Clone the repository to your computer:
+Clone the repository to your computer: git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Mobile.git
 
-git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Mobile.git
+Navigate into the project folder: cd Tracking_Vehicles_System_Mobile
 
-Navigate into the project folder:
+Install Expo CLI globally: npm install -g expo-cli
 
-cd Tracking_Vehicles_System_Mobile
+Install required packages: npm install
 
-Install Expo CLI globally:
+For macOS, install Watchman: brew install watchman
 
-npm install -g expo-cli
-
-Install required packages:
-
-npm install
-
-For macOS, install Watchman:
-
-brew install watchman
-
-Start the project:
-
-npx expo start
+Start the project: npx expo start
 
 2. Front-End Admin Website (React JS)
 
@@ -40,21 +28,13 @@ Repository: Tracking_Vehicles_System_Client
 
 Instructions:
 
-Clone the repository to your computer:
+Clone the repository to your computer: git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Client.git
 
-git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Client.git
+Navigate into the project folder: cd Tracking_Vehicles_System_Client
 
-Navigate into the project folder:
+Install required packages: npm install
 
-cd Tracking_Vehicles_System_Client
-
-Install required packages:
-
-npm install
-
-Start the project:
-
-npm start
+Start the project: npm start
 
 3. Backend Server (Express JS)
 
@@ -62,21 +42,13 @@ Repository: Tracking_Vehicles_System_Server
 
 Instructions:
 
-Clone the repository to your computer:
+Clone the repository to your computer: git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Server.git
 
-git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Server.git
+Navigate into the project folder: cd Tracking_Vehicles_System_Server
 
-Navigate into the project folder:
+Install required packages: npm install
 
-cd Tracking_Vehicles_System_Server
-
-Install required packages:
-
-npm install
-
-Start the server:
-
-npm start
+Start the server: npm start
 
 The server will run at: http://172.77.209.93:3001
 
@@ -86,22 +58,14 @@ Repository: Detect_DrowsyandYawn
 
 Instructions:
 
-Clone the repository to your computer:
+Clone the repository to your computer: git clone https://github.com/NguyenLeGiangHa/Detect_DrowsyandYawn.git
 
-git clone https://github.com/NguyenLeGiangHa/Detect_DrowsyandYawn.git
-
-Create and activate a virtual environment:
-
-python -m venv env
+Create and activate a virtual environment: python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 
-Install required packages:
+Install required packages: pip install -r requirements.txt
 
-pip install -r requirements.txt
-
-Run the application:
-
-python app.py
+Run the application: python app.py
 
 5. IoT Device Code for Real-Time Location and Speed Tracking
 
@@ -109,9 +73,7 @@ Repository: Tracking_Vehicles_System_DeviceCode
 
 Instructions:
 
-Clone the repository to your computer:
-
-git clone https://github.com/Dilele2509/Tracking_Vehicles_System_DeviceCode.git
+Clone the repository to your computer: git clone https://github.com/Dilele2509/Tracking_Vehicles_System_DeviceCode.git
 
 Connect the hardware device to your computer and wait for recognition.
 
