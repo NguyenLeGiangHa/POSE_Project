@@ -1,31 +1,123 @@
-# POSE_Project
-It's POSE project in HCMUTE
-1. This is the code of the UI controller mobile app (React Native, Expo Go): https://github.com/Dilele2509/Tracking_Vehicles_System_Mobile.git
-Clone the project from the following github link to your computer with an arbitrary path.
-cd to move into the folder containing the project
-tSet configuration by command npm install -g expo-cli
-run command above sea level i to download the necessary packages 
-download more watchman for MacOS using command brew install watchman
-then tremble npx expo start to run the project
+POSE_Project
 
-2. This is the code of the front-end admin website (React js): https://github.com/Dilele2509/Tracking_Vehicles_System_Client.git
-Clone the project from the following github link to your computer with an arbitrary path.
-cd to move into the folder containing the project
-run command above sea level i to download the necessary packages 
-then tremble npm start to run the project
+POSE Project in HCMUTE
 
-3. This is the backend code (Express js): https://github.com/Dilele2509/Tracking_Vehicles_System_Server.git
-Clone the project from the following github link to your computer with an arbitrary path.
-cd to move into the folder containing the project
-run command above sea level i to download the necessary packages 
-then tremble npm start to run the project to see the console screen showing the server being run at the address http://172.77.209.93:3001
+This repository contains the components of the POSE project, including mobile apps, websites, backend servers, and IoT devices for tracking vehicle systems.
 
-4. This is python code to detect drowsiness and yawning: https://github.com/NguyenLeGiangHa/Detect_DrowsyandYawn.git
+1. UI Controller Mobile App (React Native, Expo Go)
 
-5. This is the code device to get data location, speed real-time (IoT): https://github.com/Dilele2509/Tracking_Vehicles_System_DeviceCode.git
-Clone the project from the following github link to your computer with an arbitrary path
-Plug the hardware device into the computer and wait for connection
-After the device has been recognized, we load the code of the above project into the device
-Plug 4G sim into the device. Then apply power
-Wait until the device light displays green and flashes steadily, then the device begins to retrieve data
+Repository: Tracking_Vehicles_System_Mobile
+
+Instructions:
+
+Clone the repository to your computer:
+
+git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Mobile.git
+
+Navigate into the project folder:
+
+cd Tracking_Vehicles_System_Mobile
+
+Install Expo CLI globally:
+
+npm install -g expo-cli
+
+Install required packages:
+
+npm install
+
+For macOS, install Watchman:
+
+brew install watchman
+
+Start the project:
+
+npx expo start
+
+2. Front-End Admin Website (React JS)
+
+Repository: Tracking_Vehicles_System_Client
+
+Instructions:
+
+Clone the repository to your computer:
+
+git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Client.git
+
+Navigate into the project folder:
+
+cd Tracking_Vehicles_System_Client
+
+Install required packages:
+
+npm install
+
+Start the project:
+
+npm start
+
+3. Backend Server (Express JS)
+
+Repository: Tracking_Vehicles_System_Server
+
+Instructions:
+
+Clone the repository to your computer:
+
+git clone https://github.com/Dilele2509/Tracking_Vehicles_System_Server.git
+
+Navigate into the project folder:
+
+cd Tracking_Vehicles_System_Server
+
+Install required packages:
+
+npm install
+
+Start the server:
+
+npm start
+
+The server will run at: http://172.77.209.93:3001
+
+4. Python Code for Detecting Drowsiness and Yawning
+
+Repository: Detect_DrowsyandYawn
+
+Instructions:
+
+Clone the repository to your computer:
+
+git clone https://github.com/NguyenLeGiangHa/Detect_DrowsyandYawn.git
+
+Create and activate a virtual environment:
+
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+
+Install required packages:
+
+pip install -r requirements.txt
+
+Run the application:
+
+python app.py
+
+5. IoT Device Code for Real-Time Location and Speed Tracking
+
+Repository: Tracking_Vehicles_System_DeviceCode
+
+Instructions:
+
+Clone the repository to your computer:
+
+git clone https://github.com/Dilele2509/Tracking_Vehicles_System_DeviceCode.git
+
+Connect the hardware device to your computer and wait for recognition.
+
+Load the project code into the device using the appropriate tools.
+
+Insert a 4G SIM card into the device and power it on.
+
+Wait for the device light to turn green and flash steadily. The device will begin retrieving data.
 
